@@ -1,0 +1,418 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: rgba(161, 109, 109, 0.007);
+}
+h1{
+    font-size: 5rem;
+    font-weight: 50%;
+    margin:1 rem 0 3rem;
+    text-align: center;
+    color:rgb(219, 241, 18);
+    font-family: 'Lato', sans-serif;
+
+
+}
+.styling{
+    font-weight: 600;
+    color:rgba(165, 42, 42, 0.932);
+}
+.input_div{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.input_div .inputField{
+    padding:0.5rem 2rem;
+    height: 50px;
+    outline:none;
+    background-color: rgba(252, 239, 239, 0.925);
+    width: 700px;
+    font-size: 1.3rem;
+    margin:0.25rem;
+    text-align: center;
+    border-radius: 0;
+    border: 3px solid #020911;;
+}
+/*.input_div .add_Button{
+    width: 100px;
+    height: 55px;
+    outline: none;
+    border-radius: 25px;
+    border:none;
+    background-color:rgb(179, 255, 0);
+    font-weight: 50%;
+    margin: 00.25px;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+.input_div .add_Button:hover{
+    opacity: 0.7;
+
+}
+
+.container .item{
+    padding: 00.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom:4px solid #fff;
+    text-align: center;
+
+}
+.input_div .time{
+    padding:0.5rem 2rem;
+    height: 100px;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+.item{
+    background-color:black;
+    text-align: center;
+    width: 400px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.main .markbutton{
+font-size: 1.4rem;
+margin :0.75rem;
+font-family: 'Lato', sans-serif;
+background-color:rgb(179, 255, 0); 
+padding: 00.3rem;
+cursor: pointer;
+}
+.main .deletebutton{
+font-size: 1.4rem;
+margin :0.75rem;
+font-family: 'Lato', sans-serif;
+background-color:rgb(255, 51, 0); 
+padding: 00.3rem;
+cursor: pointer;
+}
+.markbutton:hover{
+    color:rgb(21, 75, 11);
+}
+.removebutton{
+    font-size: 1.4rem;
+    margin :0.75rem;
+    font-family: 'Lato', sans-serif;
+    background-color:rgb(179, 255, 0); 
+    padding: 00.3rem;
+    cursor: pointer;
+    outline: none;
+    }
+    .removebutton:hover{
+        color:rgb(240, 16, 27);
+    }
+    .datetime{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    }
+    #time{
+        color:black;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    /*
+    .containers{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+    }*/
+    .containers1{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: inline-block;
+        box-sizing: border-box;
+
+        
+    }
+    
+   /* #clock {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 1rem;
+        background-image: linear-gradient(180deg,
+            rgba(99,253,136,1) 0%,
+            rgba(51,197,142,1) 50%,
+            rgba(39,97,116,1) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-text-fill-color: transparent;
+        padding-top: 0.5rem;
+        margin-top: 0;
+    }
+    
+    .controls {
+        margin-top: 16px;
+    }
+    
+    .button {
+        font-weight: bold;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        padding: 4px 8px;
+        margin-left: 4px;
+        cursor: pointer;
+    }
+    
+    .set-alarm {
+        background-color: #498AFB;
+    }
+    
+    .clear-alarm {
+        background-color: #FF3860;
+    }*/
+    .dtb {
+        padding-bottom: 5%;
+        padding-left: 35%;
+      
+      }
+      
+      #dt {
+        width: 50%;
+        display: inline-block;
+        text-align: left;
+        
+      }
+      
+      #button {
+        width: 45%;
+        display: inline-block;
+        height: max-content;
+        margin-left: 1%;
+        padding-right: 25rem;
+      }
+      #click{
+        width: 400px;
+        height: 55px;
+        outline: none;
+        border-radius: 25px;
+        border:none;
+        background-color:rgb(255, 208, 0);
+        font-weight: 50%;
+        margin: 00.25px;
+        cursor: pointer;
+        font-size: 1.4rem;
+        padding-right:auto;
+        align-items: center;
+        margin-left: 50px;
+    }
+    #time{
+        background-color:rgb(255, 208, 0) ;
+        padding-top:10px;
+        margin-top: 10px;
+    }
+    .perform {
+        background-color: #ffffff;
+        border-radius: 0;
+        padding: 5% 0;
+        margin: 5% 0;
+        border: 5px;
+        border-color: blue;
+      }
+      .perform {
+        width: 70%;
+        text-align: left;
+        padding: 1% 0 1% 1%;
+        margin: auto;
+        margin-top: 5%;
+        border-bottom: solid 2px #4912cc;
+      }
+      .tasktext {
+        width: 50%;
+        display: inline-block;
+      }
+      
+
+
+
+
+
+
+      body {
+        height: 100vh;
+        background: black;
+        background-attachment: fixed;
+        font-family: "Poppins", sans-serif;
+      }
+      
+      .container {
+        margin: 15vh 0 0 25%;
+        width: 50%;
+        padding-top: 10vh;
+        box-sizing: border-box;
+        text-align: center;
+      }
+      
+      .container2 {
+        background-color: #ffffff;
+        border:50 px;
+        padding-left: 5%;
+        padding-right: 5%;
+      width:90%;
+        margin-right: 4%;
+        margin-bottom: 10%;
+        padding-bottom: 3%;
+        padding-top: 3%;
+        margin:auto;
+      }
+      
+      #input {
+        width: 70%;
+        padding: 2%;
+        margin-top: 5%;
+        background-color: #ffffff;
+        border: solid 2px navy;
+        border-radius: 5px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 1em;
+      }
+      
+      
+      
+      
+      .dtlabel {
+        color: #310597;
+        font-size: 1.2em;
+        font-weight: 500;
+        align-items: left;
+        padding-left: 10%;
+        margin-top: 2%;
+      }
+      
+      .dtb {
+        padding-bottom: 5%;
+        padding-left: 3%;
+      }
+      
+      #dt {
+        width: 50%;
+        display: inline-block;
+        text-align: left;
+      }
+      
+      #button {
+        width: 20%;
+        display: inline-block;
+        height: max-content;
+        margin-left: 2%;
+      }
+      
+      #button button {
+        padding: 6% 10%;
+        cursor: pointer;
+        background-color:rgba(0, 26, 170, 0.267);
+        border-radius: 5px;
+        border: none;
+        color:black;
+        font-size: 1em;
+        font-weight: 500;
+        border: 1px solid #06127e;
+      }
+      
+      button:active {
+        transform: scale(1.05);
+      }
+      
+      #time {
+        width: 50%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+        border: none;
+        border-radius: 3px;
+        text-align: center;
+        background-color:rgb(238, 238, 93);
+        color: black;
+        font-size: 1.2em;
+        padding: 2%;
+      }
+      
+      #date {
+        padding-left: 5%;
+        box-sizing: border-box;
+      }
+      
+      .dtb {
+        margin-top: 5%;
+      }
+      
+      .tasks {
+        background-color: #ffffff;
+        border-radius: 1em;
+        padding: 5% 0;
+        margin: 5% 0;
+      }
+      .task {
+        width: 70%;
+        text-align: left;
+        padding: 1% 0 1% 1%;
+        margin: auto;
+        margin-top: 5%;
+        border-bottom: solid 2px rgb(13, 13, 126);
+      }
+      
+      button[class^="mark"] {
+        padding: 2px;
+        margin-left: 15%;
+        background-color:rgb(15, 170, 15);
+        color: #ffffff;
+        border-radius: 5px;
+        border: none;
+      }
+      
+      .tasktext {
+        width: 50%;
+        display: inline-block;
+      }
+      
+      .taskdt {
+        width: 30%;
+        display: inline-block;
+      }
+      
+      .taskdone {
+        width: max-content;
+        display: inline-block;
+        margin-bottom: 2px;
+        margin-top: 2px;
+      }
+      table,td,th{
+        border: 3px solid black;
+        border-collapse: collapse;
+      }
+      .perfom{
+        
+        border-style: double;
+      }
+      .mark{
+        padding-top: 6px;
+      }
+      
+      
+      
